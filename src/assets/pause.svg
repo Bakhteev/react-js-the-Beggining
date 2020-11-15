@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 105 105" width="105" height="105">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff;stroke: #ffffff } 
+		.shp1 { fill: #408b04 } 
+	</style>
+	<g id="Group 5">
+		<g id="Folder 1">
+			<path id="Ellipse 1" class="shp0" d="M52.5 0C81.49 0 105 23.5 105 52.5C105 81.49 81.49 105 52.5 105C23.51 105 0 81.49 0 52.5C0 23.5 23.51 0 52.5 0Z" />
+			<path id="Shape 3" class="shp1" d="M65.13 52.72L46.32 41.87L46.32 63.58L65.13 52.72" />
+		</g>
+	</g>
+</svg>

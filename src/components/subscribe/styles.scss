@@ -1,0 +1,47 @@
+@import '../global';
+.subscribe{
+    padding: 165px 0 200px 0;
+    border-bottom: 1px solid $color-green;
+    &__item{
+        &:nth-child(2){
+            background: $color-green;
+            position: relative;
+        }
+    }
+    &__img{
+        position: absolute;
+        bottom: -47px;
+        left: -17px;
+    }
+    &__subtitle{
+        margin: 17px 0 32px 0;
+    }
+    &__descrtiption{
+        margin-bottom: 54px;
+    }
+    &__input{
+        min-width: 400px;
+        padding: 20px 0 20px 15px;
+        position: relative;
+        font-size: 19px;
+        letter-spacing: 9px;
+        line-height: 26px;
+        color: #2c3205;
+        font-family: "Bebas Neue";
+        outline: none;
+        border: 1px solid $color-green;
+    }
+    &__label{
+        position: relative;
+        &::before{
+            content: "\2192";
+            position: absolute;
+            top: -10px;
+            right: 23px;
+            font-size: 30px;
+            color: $color-green;
+            z-index: 2;
+            
+        }
+    }
+}
